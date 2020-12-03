@@ -8,6 +8,7 @@ class SearchController < ApplicationController
     response = conn.get("/v1/images/search") do |req|
       req.params[:limit] = number
     end
+
     @dogs = JSON.parse(response.body, symbolize_names: true)
   end
 end

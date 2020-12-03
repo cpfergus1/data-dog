@@ -1,0 +1,105 @@
+[
+    {
+        "breeds": [
+            {
+                "weight": {
+                    "imperial": "80 - 100",
+                    "metric": "36 - 45"
+                },
+                "height": {
+                    "imperial": "23.5 - 27",
+                    "metric": "60 - 69"
+                },
+                "id": 95,
+                "name": "Dogo Argentino",
+                "bred_for": "Big-game hunting",
+                "breed_group": "Working",
+                "life_span": "10 - 12 years",
+                "temperament": "Friendly, Affectionate, Cheerful, Loyal, Tolerant, Protective"
+            }
+        ],
+        "id": "S1nhWx94Q",
+        "url": "https://cdn2.thedogapi.com/images/S1nhWx94Q_1280.jpg",
+        "width": 650,
+        "height": 467
+    },
+    {
+        "breeds": [
+            {
+                "weight": {
+                    "imperial": "65 - 115",
+                    "metric": "29 - 52"
+                },
+                "height": {
+                    "imperial": "24 - 28",
+                    "metric": "61 - 71"
+                },
+                "id": 6,
+                "name": "Akita",
+                "bred_for": "Hunting bears",
+                "breed_group": "Working",
+                "life_span": "10 - 14 years",
+                "temperament": "Docile, Alert, Responsive, Dignified, Composed, Friendly, Receptive, Faithful, Courageous"
+            }
+        ],
+        "id": "iNX25KsSX",
+        "url": "https://cdn2.thedogapi.com/images/iNX25KsSX.jpg",
+        "width": 2362,
+        "height": 2355
+    },
+    {
+        "breeds": [
+            {
+                "weight": {
+                    "imperial": "65 - 115",
+                    "metric": "29 - 52"
+                },
+                "height": {
+                    "imperial": "24 - 28",
+                    "metric": "61 - 71"
+                },
+                "id": 6,
+                "name": "Akita",
+                "bred_for": "Hunting bears",
+                "breed_group": "Working",
+                "life_span": "10 - 14 years",
+                "temperament": "Docile, Alert, Responsive, Dignified, Composed, Friendly, Receptive, Faithful, Courageous"
+            }
+        ],
+        "id": "lq5gBjy4s",
+        "url": "https://cdn2.thedogapi.com/images/lq5gBjy4s.jpg",
+        "width": 1024,
+        "height": 731
+    },
+    {
+        "breeds": [
+            {
+                "weight": {
+                    "imperial": "20 - 30",
+                    "metric": "9 - 14"
+                },
+                "height": {
+                    "imperial": "14 - 16",
+                    "metric": "36 - 41"
+                },
+                "id": 145,
+                "name": "Kooikerhondje",
+                "bred_for": "Luring ducks into traps - \"tolling\"",
+                "breed_group": "Sporting",
+                "life_span": "12 - 15 years",
+                "temperament": "Benevolent, Agile, Alert, Intelligent, Active, Territorial"
+            }
+        ],
+        "id": "DJ_glutgg",
+        "url": "https://cdn2.thedogapi.com/images/DJ_glutgg.jpg",
+        "width": 1280,
+        "height": 720
+    },
+    {
+        "breeds": [],
+        "id": "UISVXS-r3",
+        "url": "https://cdn2.thedogapi.com/images/UISVXS-r3.jpg",
+        "width": 720,
+        "height": 960
+    }
+]

@@ -1,0 +1,78 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.thedogapi.com/v1/images/search?limit=5
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      X-Api-Key:
+      - "<DONT_EXPOSE_MY_DATA_PLEASE>"
+      User-Agent:
+      - Faraday v1.1.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Expose-Headers:
+      - Pagination-Count, Pagination-Page, Pagination-Limit
+      Cache-Control:
+      - post-check=0, pre-check=0
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Thu, 03 Dec 2020 17:56:16 GMT
+      Expires:
+      - Tue, 03 Jul 2001 06:00:00 GMT
+      Last-Modified:
+      - Thu Dec 03 2020 17:56:16 GMT+0000 (Coordinated Universal Time)
+      Pagination-Count:
+      - '910'
+      Pagination-Limit:
+      - '5'
+      Pagination-Page:
+      - '0'
+      Server:
+      - Apache/2.4.43 (Amazon)
+      Strict-Transport-Security:
+      - max-age=15552000; includeSubDomains
+      Vary:
+      - Origin,Accept-Encoding
+      X-Content-Type-Options:
+      - nosniff
+      X-Dns-Prefetch-Control:
+      - 'off'
+      X-Download-Options:
+      - noopen
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Response-Time:
+      - 74ms
+      X-Xss-Protection:
+      - 1; mode=block
+      Content-Length:
+      - '518'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: '[{"breeds":[],"id":"r156pDT4m","url":"https://cdn2.thedogapi.com/images/r156pDT4m.gif","width":402,"height":317},{"breeds":[{"weight":{"imperial":"35
+        - 65","metric":"16 - 29"},"height":{"imperial":"23 - 28","metric":"58 - 71"},"id":213,"name":"Saluki","bred_for":"Coursing
+        gazelle and hare","breed_group":"Hound","life_span":"12 - 14 years","temperament":"Aloof,
+        Reserved, Intelligent, Quiet"}],"id":"6jNaXEFxv","url":"https://cdn2.thedogapi.com/images/6jNaXEFxv.jpg","width":1080,"height":720},{"breeds":[{"weight":{"imperial":"17
+        - 23","metric":"8 - 10"},"height":{"imperial":"13.5 - 16.5","metric":"34 -
+        42"},"id":222,"name":"Shiba Inu","bred_for":"Hunting in the mountains of Japan,
+        Alert Watchdog","breed_group":"Non-Sporting","life_span":"12 - 16 years","temperament":"Charming,
+        Fearless, Keen, Alert, Confident, Faithful"}],"id":"uAzXRozxs","url":"https://cdn2.thedogapi.com/images/uAzXRozxs.jpg","width":796,"height":796},{"breeds":[{"weight":{"imperial":"17
+        - 23","metric":"8 - 10"},"height":{"imperial":"13.5 - 16.5","metric":"34 -
+        42"},"id":222,"name":"Shiba Inu","bred_for":"Hunting in the mountains of Japan,
+        Alert Watchdog","breed_group":"Non-Sporting","life_span":"12 - 16 years","temperament":"Charming,
+        Fearless, Keen, Alert, Confident, Faithful"}],"id":"fHVBn5VTk","url":"https://cdn2.thedogapi.com/images/fHVBn5VTk.jpg","width":1080,"height":1080},{"breeds":[],"id":"_WWmAUUgU","url":"https://cdn2.thedogapi.com/images/_WWmAUUgU.jpg","width":251,"height":180}]'
+  recorded_at: Thu, 03 Dec 2020 17:56:16 GMT
+recorded_with: VCR 6.0.0
