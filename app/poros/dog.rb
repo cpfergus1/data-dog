@@ -6,6 +6,13 @@ class Dog
     @breeds = dog_data[:breeds]
   end
 
+  # def breed_image(dog_data)
+  #   if dog_data[:url]
+  #     dog_data[:url]
+  #   else
+  #     "Unkown"
+  #   end
+  # end
 
   def breed_name
     breed_info(:name)
