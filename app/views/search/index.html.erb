@@ -2,19 +2,30 @@
 
 <% @dogs.each do |dog| %>
   <div class="dog">
-    <img class="image" src=<%= dog[:url] %>  alt="dog">
-    <% if dog[:breeds] %>
+    <img class="image" src=<%= dog[:url] %>  alt="dog" width="400" height="400">
+    <br>
+    <% if dog[:breeds].empty? %>
+      <p class="breed">
+        Breed: Unknown
+      </p>
+      <p class="life-span">
+        Life Span: Unknown
+      </p>
+      <p class="temperament">
+        Temperament: Unknown
+      </p>
+    <% else %>
       <% dog[:breeds].each do |breed|%>
-          <p class="breed"> <%= breed[:name] %> </p>
-          <p class="life-span"> <%= breed[:life_span] %> </p>
+          <p class="breed">
+            Breed: <%= breed[:name] %>
+          </p>
+          <p class="life-span">
+            Life Span <%= breed[:life_span] %>
+          </p>
           <p class="temperament">
-            <%= breed[:temperament] %>
+            Temperament: <%= breed[:temperament] %>
           </p>
       <% end %>
-    <% else %>
-      <p class="breed"> Unknown </p>
-      <p class="life-span"> Unknown </p>
-      <p class="temperament"> Unknown </p>
     <% end %>
   </div>
 <% end %>
